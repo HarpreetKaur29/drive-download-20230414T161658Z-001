@@ -54,7 +54,7 @@ const RequisitionDetailsForm: React.FC<{
   }
   const handleCustomSelect =(value : any, e : any)=>{
     setFieldValue(value, e);  
-    setState({...state,interviewSettings : {...state.interviewSettings, [value] : e}  })
+    setState({...state,requisitionDetails : {...state.requisitionDetails, [value] : e}  })
   }
 
 
